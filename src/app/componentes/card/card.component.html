@@ -5,8 +5,9 @@
 		alt=""
 		srcset=""
 	>
-	<app-card-label gameLabel="Exclusivo !!!">
-	</app-card-label>
+	<app-card-label gameLabel="{{gameLabel}}"></app-card-label>
 
-	<app-card-pricing></app-card-pricing>
+	<app-card-pricing 
+	gameType="{{gameType}}"
+	gamePrice="{{gamePrice}}"></app-card-pricing>
 </a>
